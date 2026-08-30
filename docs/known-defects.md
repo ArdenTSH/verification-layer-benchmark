@@ -389,10 +389,8 @@ scoped to stage two, `is_ceiling_target` is now true for all six, and the
 scorer, the key, its generator, `ENTRANT.md` and `ceiling.md` all carry
 that one framing.
 
-The line between beta and v0 is drawn in the research repository, which does not
-ship here: before it, the scoring moved underneath the numbers; after it, one
-rule set and one version. Reaching that line meant closing what follows.
-`benchmark-0` is now stamped into every scorebook this repository prints.
+What follows is what had to be closed to reach `benchmark-0`, which is stamped
+into every scorebook this repository prints.
 
 | was | now |
 |---|---|

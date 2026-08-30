@@ -91,18 +91,12 @@ TOL = {
 # after the primary key, so a verifier reporting either form scores.
 # ---------------------------------------------------------------- the version
 
-# ONE RULE SET, ONE VERSION. Everything before 29 August 2026 was instrument
-# development: the scoring changed underneath results three times in a single
-# day, and a figure quoted in the morning did not mean what a figure quoted in
-# the evening meant, under the same name, from the same data. That is what made
-# the earlier period beta, and it is why a score is only meaningful beside the
-# version that produced it.
-#
-# From here the benchmark is `benchmark-0`, the referee the layer pins. It is
-# stamped into every scorebook it prints, so a number can always be read back
-# to the rules that made it. A convention change is a NEW TAG and a new
-# version, with results rebuilt rather than reinterpreted - never a silent
-# edit under a name that already means something.
+# THE VERSION STAMP. A score is only meaningful beside the rules that produced
+# it. The benchmark is `benchmark-0`, the referee the layer pins, stamped into
+# every scorebook it prints so a number can always be read back to the rules
+# that made it. A convention change is a NEW TAG, with results rebuilt rather
+# than reinterpreted - never a silent edit under a name that already means
+# something.
 BENCHMARK_VERSION = "benchmark-0"
 
 

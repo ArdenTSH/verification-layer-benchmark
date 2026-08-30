@@ -21,20 +21,13 @@ beside your recoveries and never netted against them.
 The benchmark never adjudicates chemistry. Every target is a documentary fact
 about what a published source says.
 
-### One rule set, one version
+### The version stamp
 
-Everything before 29 August 2026 was **beta** — instrument development, not
-measurement. Not void and not wasted; it is the reason there is anything to
-release. But the scoring moved underneath the numbers, three times in one day
-at the worst of it, and a figure quoted in the morning did not mean what the
-same figure meant that evening. You cannot tell an instrument's readings from
-its faults in that state.
-
-`benchmark-0` is the line. One rule set, one version, stamped into every
-scorebook this repository prints, so a score can always be read back to the
-rules that produced it. A convention change is a new tag and a new version,
-with results rebuilt rather than reinterpreted. Scores produced under a retired route are not quoted: the route measured
-something other than what its name said, whatever the arithmetic did.
+`benchmark-0` is stamped into every scorebook this repository prints, so a
+score can always be read back to the rules that produced it. A convention
+change is a new tag, with results rebuilt rather than reinterpreted. Scores
+produced under a retired route are not quoted: the route measured something
+other than what its name said, whatever the arithmetic did.
 
 The verifier this was built to evaluate is **Aletheia v0**, in a separate
 repository. It is one entrant among others, and it pins this benchmark by
