@@ -1,0 +1,68 @@
+# CORRECTION LOG 2 Aug 2026, verified against the printed PDF (report at
+# results/prx_pdf_verification_20260802.txt, held in the project's private research
+# log and available to reviewers on request). Old values preserved here per the
+# no-delete rule; data rows below carry the corrected values.
+#   Zr2Sb2Pb4O13 icsd_codes: was "41119 OR 60805" -> 62721 (uncertain 1 -> 0)
+#   Mn2VPO7: printed table genuinely reads Mg2P2O7 (paper's own typo; body text
+#     implies Mn2P2O7); was flagged as OUR extraction typo -> [sic] note, uncertain 0
+#   Zn2Cr3FeO8: was "(Zn;Fe;Cr)O [FORMULA DID NOT RENDER]",167363 -> two printed
+#     candidates (Zn0.54Fe0.46)Fe2O4 81207 and Zn(FeCrO4) 167362; 167363 is a body-
+#     text citation, not the table (uncertain 1 -> 0)
+#   Y3In2Ga3O12 icsd_codes: was 417151 -> 54664
+#   NaMnFe(PO4)2: was Pnma (62),Pnma (62),Na2Fe(PO4)2,73770,P121/n1 -> printed row
+#     P-1 (2),P-1 (2),Na2Mg2Fe(PO4)3,138263,C12/c1 (matches our scan's P-1)
+#   NaCaMgFe(SiO3)4: was "NaCaMgFe(SiO3)4 [ALREADY KNOWN]",417169 -> printed
+#     candidate (Ca0.774Na0.226)(Mg0.901Fe0.099)Fe0.011(Si2O6),75294,C12/c1; the
+#     ALREADY KNOWN reading is unsupported (Table I gives E2+E3, not E4)
+#   ADDED the previously missing 43rd row: Zn3Ni4(SbO6)2 (a partial success)
+# PRX Energy 3, 011002 (2024), Table III, transcribed 29 Jul 2026 via the NSF PAR full text
+# (https://par.nsf.gov/servlets/purl/10532478), cross-checked against the ChemRxiv preprint PDF.
+# TRANSCRIPTION IS 42 of 43 ROWS. One row could not be located. Three cells flagged uncertain=1.
+# RE-VERIFY AGAINST THE PDF BEFORE CITING, especially the ICSD codes.
+# Columns: sample = A-Lab claim; proposed_sym = symmetry as reported by A-Lab;
+# indexed_sym = symmetry from FINDSYM on the deposited CIF; icsd_candidates = what the critics
+# say it really is; "(EVA)" = phase indexed with DIFFRAC.EVA and not tabulated in ICSD.
+sample,proposed_sym,indexed_sym,icsd_candidates,icsd_codes,icsd_sym,uncertain
+Ba2ZrSnO6,Fm-3m (225),Pm-3m (221),BaSnO3; Ba(Zr0.5Sn0.5)O3; SnO2; ZrO2,188149;43137;9163;66781,Pm-3m;Pm-3m;P42/mnm;P42/nmc,0
+Ba6Na2Ta2V2O17,P63mmc (194),P63mmc (194),BaNaVO4; NaVO3,130002;2103,P-3m1;C12/c1,0
+Ba6Na2V2Sb2O17,P63mmc (194),P63mmc (194),BaNaVO4; NaVO3,130002;2103,P-3m1;C12/c1,0
+Ba9Ca3La4(Fe4O15)2,P1 (1),P1 (1),Ba4.5Ca1.5La2Fe4O15,72336,P63mc,0
+CaCo(PO3)4,C2/c (15),C2/c (15),Co2P2O7; Ca3(PO4)2,2830;923,B121/c1;P121/a1,0
+CaFe2P2O9,Pnma (62),Pnma (62),NO MATCHES,,,0
+CaGd2Zr(GaO3)4,P-1 (2),P-1 (2),Ca0.95Zr0.95Gd2.05Ga4.05O12,202850,Ia-3d,0
+CaMn(PO3)4,C2/c (15),C2/c (15),Mn2P4O12,412558,C12/c1,0
+CaNi(PO3)4,C2/c (15),C2/c (15),CaNi3(P2O7)2; Ca2(P2O7),74046;14313,P121/c1;P41,0
+FeSb3Pb4O13,R3m (160),R3m (160),Pb2(Fe;Sb)O6.5,60805,Fd-3m,0
+Hf2Sb2Pb4O13,Imm2 (44),Imm2 (44),Pb2(Hf;Sb)O6.5; PbHfO3,62723;174110,Fd-3m;Pbam,0
+InSb3(PO4)6,Pc (7),Pc (7),Sb0.5In0.5(P2O7); Sb(Sb0.5In0.5)(PO4)3,166834;166835,P121/n1;Pna21,0
+InSb3Pb4O13,R3m (160),R3m (160),Pb2(InSb)O6.5; In2O3,41119;14388,Fd-3m;Ia-3,0
+K2TiCr(PO4)3,P213 (198),P213 (198),K2Ti2(PO4)3; Cr2O3,202888;626479,P213;R-3c,0
+K4MgFe3(PO4)5,Cc (9),Cc (9),K4MgFe3(PO4)5,161484,P-421c,0
+K4TiSn3(PO5)4,P21 (4),P21 (4),K((Ti0.25Sn0.75)O)(PO4),250088,Pna21,0
+KBaGdWO6,F-43m (216),F-43m (216),Ba2GdWO6; Gd2O3,138973;40473,Fm-3m;Ia-3,0
+KBaPrWO6,F-43m (216),F-43m (216),Ba11W4O23; Pr6O11 (EVA),418207;NA,Fd-3m;P21/c,0
+KMn3O6,C2/c (15),C2/m (12),K0.48Mn1.94O5.18,240249,P63/mmc,0
+KNa2Ga3(SiO4)3,P21/c (14),P21/c (14),NaGaSiO4,46861,P121/n1,0
+KNaP6(PbO3)8,P3 (143),P63/m (176),(Na;K)Pb4(PO4)3; Pb8O5(PO4)2,182501;98702,P63/m;C12/m1,0
+KNaTi2(PO5)2,Pna21 (33),Pna21 (33),Na0.5(Na0.492K0.008)(TiO)(PO4),59284,Pna21,0
+KPr9(Si3O13)2,P3 (143),P3 (143),Pr9.33Si6O32 (EVA),NA,,0
+Mg3MnNi3O8,R-3m (166),R-3m (166),NiO; (Ni;Mn)(Ni;Mn)2O4,9866;84517,Fm-3m;Fd-3m,0
+Mg3NiO4,Pm-3m (221),Fm-3m (225),MgNiO2,290603,Fm-3m,0
+MgCuP2O7,P-1 (2),P-1 (2),Mg2P2O7,20295,C12/m1,0
+MgNi(PO3)4,C2/c (15),C2/c (15),Mg3(PO4)2; Ni3(PO4)2; (Ni;Mn)3(PO4)2,31005;153159;158525,P121/n1;P121/c1;P121/a1,0
+MgTi2NiO6,R3 (146),R3 (146),(Ni0.5Mg0.5)TiO3; TiO,171583;38755,R-3;Fm-3m,0
+MgTi4(PO4)6,R3 (146),R3 (146),Mg0.5Ti2(PO4)3,74287,R-3c,0
+MgV4Cu3O14,P1 (1),P1 (1),(Cu1.5Mg0.5)V2O7,69731,C12/c1,0
+Mn2VPO7,Cm (8),Cm (8),Mg2P2O7 [sic printed; body text implies Mn2P2O7],47136,C12/m1,0
+Mn4Zn3(NiO6)2,C2/c (15),C2/c (15),(Zn0.759Mn0.241)(Mn1.35Ni0.65)O4; NiO,92223;9866,Fd-3m;Fm-3m,0
+Mn7(P2O7)4,C2221 (20),C2221 (20),Mn2(PO3)4,145534,C12/c1,0
+MnAgO2,C2/m (12),C2/m (12),MnAgO2 [ALREADY KNOWN],139006,C12/m1,0
+Na3Ca18Fe(PO4)14,P1 (1),P1 (1),Na3Ca18Fe(PO4)14 [ALREADY KNOWN],85103,R3c,0
+Na7Mg7Fe5(PO4)12,P1 (1),P1 (1),Na2Mg2Fe(PO4)3,138263,C12/m1,0
+NaCaMgFe(SiO3)4,C2 (5),C2 (5),(Ca0.774Na0.226)(Mg0.901Fe0.099)Fe0.011(Si2O6),75294,C12/c1,0
+NaMnFe(PO4)2,P-1 (2),P-1 (2),Na2Mg2Fe(PO4)3,138263,C12/c1,0
+Sn2Sb2Pb4O13,Imm2 (44),Imm2 (44),Pb2(Sn;Sb)O6.5,62722,Fd-3m,0
+Y3In2Ga3O12,Ia-3d (230),Ia-3d (230),Y3In2Ga3O12 [ALREADY KNOWN],54664,Ia-3d,0
+Zn2Cr3FeO8,R-3m (166),R-3m (166),(Zn0.54Fe0.46)Fe2O4; Zn(FeCrO4),81207;167362,Fd-3m;Fd-3m,0
+Zr2Sb2Pb4O13,Imm2 (44),Imm2 (44),Pb2(Zr;Sb)O6.5,62721,Fd-3m,0
+Zn3Ni4(SbO6)2,C2/c (15),C2/c (15),Zn(Zn1.333Sb0.667)O4; NiO; NiSb2O6,173996;9866;426852,Fd-3m;Fm-3m;P42/mnm,0

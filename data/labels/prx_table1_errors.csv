@@ -1,0 +1,48 @@
+# PRX Energy 3, 011002 (2024), Table I (printed page 011002-5), full four-column
+# per-compound error membership. Transcribed 2 Aug 2026 from the NSF PAR PDF by two
+# independent extraction methods that agree row by row; column sums reproduce the
+# printed 18/36, 8/36, 24/36, 3/36 exactly. Full report with verbatim quotes:
+# results/prx_pdf_verification_20260802.txt, held in the project's private research
+# log and available to reviewers on request.
+# This file SUPERSEDES the error3 column of prx_error_types.csv, whose E3 list
+# disagreed with the print on 10 of 24 members (kept for lineage, see its header).
+# Scope: the 36 PRX "successes" only. The 7 partial successes carry no Table I row:
+# CaGd2Zr(GaO3)4, KBaGdWO6, Mn7(P2O7)4, InSb3(PO4)6, KNa2Ga3(SiO4)3,
+# Ba9Ca3La4(Fe4O15)2, Zn3Ni4(SbO6)2. CaFe2P2O9 is the sole zero-error row.
+compound,e1_poor_fit,e2_cif_differs,e3_no_ordering_evidence,e4_already_known
+Ba2ZrSnO6,1,1,1,0
+Ba6Na2Ta2V2O17,1,0,1,0
+Ba6Na2V2Sb2O17,1,0,0,0
+CaCo(PO3)4,0,0,1,0
+CaFe2P2O9,0,0,0,0
+CaMn(PO3)4,0,0,1,0
+CaNi(PO3)4,0,0,1,0
+FeSb3Pb4O13,0,0,1,0
+Hf2Sb2Pb4O13,0,0,1,0
+InSb3Pb4O13,0,0,1,0
+K2TiCr(PO4)3,0,0,1,0
+K4MgFe3(PO4)5,1,0,0,0
+K4TiSn3(PO5)4,1,0,0,0
+KBaPrWO6,1,0,0,0
+KMn3O6,1,1,1,0
+KNaP6(PbO3)8,1,1,1,0
+KNaTi2(PO5)2,0,0,1,0
+KPr9(Si3O13)2,1,1,0,0
+Mg3MnNi3O8,1,0,1,0
+Mg3NiO4,0,1,1,0
+MgCuP2O7,0,1,1,0
+MgNi(PO3)4,1,0,1,0
+MgTi2NiO6,0,0,1,0
+MgTi4(PO4)6,0,0,0,1
+MgV4Cu3O14,1,1,1,0
+Mn2VPO7,1,0,1,0
+Mn4Zn3(NiO6)2,0,0,1,0
+MnAgO2,1,0,0,1
+Na3Ca18Fe(PO4)14,1,0,0,0
+Na7Mg7Fe5(PO4)12,1,0,0,0
+NaCaMgFe(SiO3)4,0,1,1,0
+NaMnFe(PO4)2,1,0,0,0
+Sn2Sb2Pb4O13,0,0,1,0
+Y3In2Ga3O12,1,0,0,1
+Zn2Cr3FeO8,0,0,1,0
+Zr2Sb2Pb4O13,0,0,1,0

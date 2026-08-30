@@ -1,0 +1,6 @@
+compound,correction_verdict,structure_verdict,composition_verdict,named_confusable_phase,rwp_percent,source
+CaGd2Zr(GaO3)4,inconclusive,inconclusive,inconclusive,Gd3GaO6,9.2,Refinement-Table.xlsx "Inconclusive results"
+KBaGdWO6,inconclusive,confirmed,inconclusive,Ba2GdWO6 / Ba8Gd5.332W2.668O24,14.78,Refinement-Table.xlsx "Inconclusive results"
+Mn7(P2O7)4,inconclusive,inconclusive,inconclusive,Mn2(PO3)4,4.09,Refinement-Table.xlsx "Inconclusive results"
+Mg3MnNi3O8,inconclusive,confirmed,inconclusive,,9.83,Refinement-Table.xlsx "Inconclusive results"
+Zn2Cr3FeO8,removed,,,,,Correction notice: training-data contamination

@@ -1,0 +1,63 @@
+# CARTOGRAPH's pass/flag decision per claim, at their frozen threshold 0.776.
+#
+#   rho = sqrt( (Rwp/20)^2 + ((100 - w_target)/100)^2 + (w_alt/100)^2 )
+#
+# w_alt is the LARGEST SINGLE IMPURITY PHASE FRACTION. It is NOT 100 - w_target.
+#
+# GENERATED FILE. Written only by tools/build_ceiling.py, which computes these
+# by calling reproduce_baselines.rho_alab - the same function that reproduces
+# the published result exactly. Do not edit by hand: the header would stop
+# being true, which is what happened between 27 and 28 August 2026 when the
+# statistic was written out again and w_alt became 100 - w_target. That flagged
+# 9 compounds instead of 8 and voided every number computed from it.
+#
+# input_digest: 06e03dddc3cb9ecc
+# rows 40, flagged 8, passed 32
+# A verifier that flagged nothing would agree on 32 of 40
+# (80.0 per cent). No single figure is reported for this group.
+#
+# THESE ARE THE BASELINE'S DECISIONS, NOT EXPERT FINDINGS. They are the external
+# key for the last step of K6, the two-stage protocol test - not a rival score to
+# beat. All three inputs are stage-two columns, so the baseline is stage-two by
+# construction and could not have run in 2023.
+compound,correction_verdict,rho,flagged
+MgNi(PO3)4,confirmed,0.2809,False
+Mn4Zn3(NiO6)2,confirmed,0.2484,False
+MgCuP2O7,confirmed,0.267,False
+Mn2VPO7,confirmed,0.1445,False
+MgTi4(PO4)6,confirmed,0.5237,False
+CaFe2P2O9,confirmed,0.41,False
+Zr2Sb2Pb4O13,confirmed,0.389,False
+FeSb3Pb4O13,confirmed,0.3948,False
+Ba6Na2V2Sb2O17,confirmed,0.4652,False
+MgV4Cu3O14,confirmed,0.3266,False
+CaCo(PO3)4,confirmed,0.0985,False
+K4TiSn3(PO5)4,confirmed,0.4105,False
+KPr9(Si3O13)2,confirmed,0.423,False
+KNaP6(PbO3)8,confirmed,0.6244,False
+MnAgO2,confirmed,0.1972,False
+K2TiCr(PO4)3,confirmed,0.3633,False
+MgTi2NiO6,confirmed,0.2513,False
+K4MgFe3(PO4)5,confirmed,0.2045,False
+InSb3(PO4)6,confirmed,0.9689,True
+Na3Ca18Fe(PO4)14,confirmed,0.4735,False
+Zn3Ni4(SbO6)2,confirmed,0.3422,False
+NaMnFe(PO4)2,confirmed,0.3287,False
+KNaTi2(PO5)2,confirmed,0.4593,False
+Ba9Ca3La4(Fe4O15)2,confirmed,0.788,True
+Sn2Sb2Pb4O13,confirmed,0.3881,False
+Hf2Sb2Pb4O13,confirmed,0.3038,False
+InSb3Pb4O13,confirmed,0.6544,False
+NaCaMgFe(SiO3)4,confirmed,0.1192,False
+Ba6Ta2Na2V2O17,confirmed,0.7651,False
+KNa2Ga3(SiO4)3,confirmed,0.6375,False
+Ba2ZrSnO6,confirmed,1.0878,True
+CaMn(PO3)4,confirmed,0.2435,False
+Na7Mg7Fe5(PO4)12,confirmed,0.3038,False
+KMn3O6,confirmed,0.4455,False
+CaNi(PO3)4,confirmed,0.3904,False
+KBaPrWO6,confirmed,0.7892,True
+CaGd2Zr(GaO3)4,inconclusive,0.8552,True
+KBaGdWO6,inconclusive,1.0011,True
+Mn7(P2O7)4,inconclusive,0.8185,True
+Mg3MnNi3O8,inconclusive,0.9333,True

@@ -1,0 +1,30 @@
+[
+ {
+  "modality": "xrd-longer-counting",
+  "statement": "powder X-ray diffraction on the same instrument, longer counting, under the assumed instrument model"
+ },
+ {
+  "modality": "neutron-powder",
+  "statement": "neutron powder diffraction on the same specimen"
+ },
+ {
+  "modality": "anomalous-xrd-edge",
+  "statement": "X-ray diffraction at an absorption edge of one of the constituent elements"
+ },
+ {
+  "modality": "higher-resolution-xrd",
+  "statement": "higher-resolution synchrotron powder diffraction"
+ },
+ {
+  "modality": "electron-diffraction",
+  "statement": "selected-area electron diffraction on single grains"
+ },
+ {
+  "modality": "elemental-analysis",
+  "statement": "independent elemental analysis of the specimen"
+ },
+ {
+  "modality": "re-refinement-expanded-phase-set",
+  "statement": "re-refinement of the existing pattern against an expanded set of candidate phases"
+ }
+]

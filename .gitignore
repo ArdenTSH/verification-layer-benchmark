@@ -1,0 +1,16 @@
+# The deposited structure files and the refinement workbook are the 2023
+# paper's supplementary material. Fetch them; they are not redistributed here.
+data/cifs/
+
+# Licensed reference data. The ICSD is subscription-only and its files may not
+# be redistributed. The benchmark ships collection codes and hashes instead, so
+# a licence holder can verify they pulled the same entry. See docs/ENTRANT.md.
+data/reference/icsd_*
+data/rivals/icsd/
+
+# Scoring output
+results/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

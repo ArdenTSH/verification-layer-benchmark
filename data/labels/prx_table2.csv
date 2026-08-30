@@ -1,0 +1,50 @@
+# PRX Energy 3, 011002 (2024), Table II (printed page 011002-10). Transcribed
+# 27 August 2026 from the open-access PDF held at data/prx_energy_leeman2024.pdf.
+#
+# The printed caption reads: "A comparison of the pseudo-cubic lattice
+# parameters predicted in the Materials Project with the reported cubic lattice
+# parameters listed in the ICSD for doped pyrochlores." The two data columns are
+# printed as "Cubic lattice parameter from A-lab CIF (A)" and "Pseudo-cubic
+# lattice parameter of equivalent disordered phase from ICSD (A)".
+#
+# TRANSCRIPTION STATUS: TWO METHODS, AGREEING ON ALL 6 ROWS AND 11 VALUES.
+# The project's discipline (benchmark section 5.1) is two independent
+# transcription methods agreeing row by row, and it is now satisfied.
+#   method 1, 27 Aug 2026: plain text extraction (pypdf default mode), rows
+#             recovered by matching a formula followed by two numeric columns.
+#   method 2, 27 Aug 2026: layout-preserving extraction (pypdf
+#             extraction_mode="layout"), which reconstructs the printed column
+#             geometry rather than the text stream, so it fails differently -
+#             it interleaves the adjacent body text into every line, and the
+#             row is recovered from the line's tail.
+# The two disagree about nothing. The comparison is reproduced by
+# bench/reproduce_benchmark.py item R5. Nothing has been corrected; values are
+# carried exactly as printed. The two methods share a library, which is a
+# real limit on their independence: they do not share an extraction strategy,
+# but a defect in pypdf's page parsing would be invisible to both.
+#
+# WHY THIS FILE EXISTS: this table had never been transcribed by this project,
+# although its A-lab column is derivable from the deposited structure files and
+# is therefore inside the layer's ceiling (docs/ceiling.md, item A3). All five
+# A-lab values reproduce from the deposit to within 0.0005 A under the
+# pseudo-cubic convention each deposited setting dictates, recorded per row
+# below and verified by bench/reproduce_benchmark.py item R5 on 26 August 2026.
+#
+# COLUMNS
+#   compound              as printed
+#   alab_cubic_a          the printed "from A-lab CIF" value, Angstrom
+#   icsd_pseudocubic_a    the printed ICSD equivalent-disordered value, Angstrom
+#   reproduced_by         the conversion from the deposited cell that reproduces
+#                         alab_cubic_a; blank where no A-lab value is printed
+#   rederivable           whether the A-lab column is recomputable from the
+#                         deposit alone
+#
+# The ICSD column is NOT re-derivable by this project: those entries are
+# licensed and are not redistributed (benchmark section 8.2).
+compound,alab_cubic_a,icsd_pseudocubic_a,reproduced_by,rederivable
+Pure Pb2Sb2O7,,10.44,,no (no A-lab value printed; ICSD entry is licensed)
+Sn2Sb2Pb4O13,10.6168,10.5645,mean(a b)*sqrt2,yes
+Zr2Sb2Pb4O13,10.6594,10.6349,c,yes
+Hf2Sb2Pb4O13,10.6415,10.6126,mean(a b)*sqrt2,yes
+FeSb3Pb4O13,10.4931,10.4803,(4V/3)^(1/3),yes
+InSb3Pb4O13,10.5845,10.5892,(4V/3)^(1/3),yes

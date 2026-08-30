@@ -1,0 +1,669 @@
+{
+ "note": "The ceiling: what the method is scored against. GENERATED FILE - written only by tools/build_ceiling.py. Human-readable: docs/ceiling.md. The STAGE-ONE ceiling is K1 to K5, 55 targets. K6 is the sixth group and is scoreable only at stage two: it is the end-to-end test of the two-stage protocol - abstain, name the analysis that would settle the question, be granted it, and reach the external baseline's decision. Counted apart from the 55 and never pooled with them, because its inputs are the manual refinement columns and theirs are the automated deposit. The EXTERNAL BASELINE block the scorer prints beside it is a set comparison, not the group.",
+ "generated_by": "tools/build_ceiling.py",
+ "input_digest": "06e03dddc3cb9ecc",
+ "ceiling_groups": [
+  "K1",
+  "K2",
+  "K3",
+  "K4",
+  "K5"
+ ],
+ "stage_two_groups": [
+  "K6"
+ ],
+ "totals": {
+  "ceiling_targets": 55,
+  "ceiling_targets_stage_two": 40,
+  "ceiling_targets_all_stages": 95,
+  "baseline_decisions_stage_two": 40
+ },
+ "baseline_comparison": {
+  "rows": 40,
+  "flagged": 8,
+  "passed": 32,
+  "do_nothing_score_pct": 80.0,
+  "is_target_group": false,
+  "stage": "two",
+  "why_stage_two": "one decision per compound against a per-claim layer; a different question from the critique's; and its inputs are stage-two columns a day-one verifier cannot hold"
+ },
+ "evidence_families": {
+  "e2_flag": [
+   "cation-ordering",
+   "phase-present"
+  ],
+  "e4_flag": [
+   "novelty"
+  ],
+  "baseline_flag": [
+   "weight-fraction"
+  ]
+ },
+ "evidence_rule": "A flag target is recovered only when the compound's LEDGER verdict is refuted AND a refuting check came from a family carrying that target's evidence. Scoring all flag groups on the compound verdict alone made K1/K3 and K6 read one bit, and on 8 of 9 compounds carrying more than one flag target their expectations conflicted, so no verifier could satisfy both. K6 IS EXEMPT AND NO LONGER USES THIS RULE: since 29 August 2026 it is scored from the observation channel - the quantities the layer recorded - through the baseline's own statistic, with no witness, no refutation and no family credit. Its `baseline_flag` entry below is kept as the record of the retired scoping and decides nothing. The exclusion test for K6 reads three families, not one, because the layer records the statistic's terms mostly under phase-present and novelty; scoping it to weight-fraction alone guaranteed that the evidence deciding the flag was never the evidence the group read.",
+ "groups": {
+  "K1": {
+   "finding": "the deposited file differs from the claimed structure",
+   "source": "the critique, Table I, E2 flag",
+   "shape": "flag",
+   "is_ceiling_target": true,
+   "count": 7,
+   "targets": [
+    {
+     "id": "K1:MgCuP2O7",
+     "compound": "MgCuP2O7",
+     "quantity": "e2_flag",
+     "expected": "file differs from claim"
+    },
+    {
+     "id": "K1:MgV4Cu3O14",
+     "compound": "MgV4Cu3O14",
+     "quantity": "e2_flag",
+     "expected": "file differs from claim"
+    },
+    {
+     "id": "K1:KPr9(Si3O13)2",
+     "compound": "KPr9(Si3O13)2",
+     "quantity": "e2_flag",
+     "expected": "file differs from claim"
+    },
+    {
+     "id": "K1:KNaP6(PbO3)8",
+     "compound": "KNaP6(PbO3)8",
+     "quantity": "e2_flag",
+     "expected": "file differs from claim"
+    },
+    {
+     "id": "K1:NaCaMgFe(SiO3)4",
+     "compound": "NaCaMgFe(SiO3)4",
+     "quantity": "e2_flag",
+     "expected": "file differs from claim"
+    },
+    {
+     "id": "K1:Ba2ZrSnO6",
+     "compound": "Ba2ZrSnO6",
+     "quantity": "e2_flag",
+     "expected": "file differs from claim"
+    },
+    {
+     "id": "K1:KMn3O6",
+     "compound": "KMn3O6",
+     "quantity": "e2_flag",
+     "expected": "file differs from claim"
+    }
+   ]
+  },
+  "K2": {
+   "finding": "the symmetry of each deposited file",
+   "source": "the critique, Table III, indexed_sym",
+   "shape": "value",
+   "is_ceiling_target": true,
+   "count": 38,
+   "targets": [
+    {
+     "id": "K2:Ba2ZrSnO6",
+     "compound": "Ba2ZrSnO6",
+     "quantity": "space_group_number",
+     "expected": "Pm-3m (221)"
+    },
+    {
+     "id": "K2:Ba6Na2Ta2V2O17",
+     "compound": "Ba6Na2Ta2V2O17",
+     "quantity": "space_group_number",
+     "expected": "P63mmc (194)"
+    },
+    {
+     "id": "K2:Ba6Na2V2Sb2O17",
+     "compound": "Ba6Na2V2Sb2O17",
+     "quantity": "space_group_number",
+     "expected": "P63mmc (194)"
+    },
+    {
+     "id": "K2:Ba9Ca3La4(Fe4O15)2",
+     "compound": "Ba9Ca3La4(Fe4O15)2",
+     "quantity": "space_group_number",
+     "expected": "P1 (1)"
+    },
+    {
+     "id": "K2:CaCo(PO3)4",
+     "compound": "CaCo(PO3)4",
+     "quantity": "space_group_number",
+     "expected": "C2/c (15)"
+    },
+    {
+     "id": "K2:CaFe2P2O9",
+     "compound": "CaFe2P2O9",
+     "quantity": "space_group_number",
+     "expected": "Pnma (62)"
+    },
+    {
+     "id": "K2:CaGd2Zr(GaO3)4",
+     "compound": "CaGd2Zr(GaO3)4",
+     "quantity": "space_group_number",
+     "expected": "P-1 (2)"
+    },
+    {
+     "id": "K2:CaMn(PO3)4",
+     "compound": "CaMn(PO3)4",
+     "quantity": "space_group_number",
+     "expected": "C2/c (15)"
+    },
+    {
+     "id": "K2:CaNi(PO3)4",
+     "compound": "CaNi(PO3)4",
+     "quantity": "space_group_number",
+     "expected": "C2/c (15)"
+    },
+    {
+     "id": "K2:Hf2Sb2Pb4O13",
+     "compound": "Hf2Sb2Pb4O13",
+     "quantity": "space_group_number",
+     "expected": "Imm2 (44)"
+    },
+    {
+     "id": "K2:InSb3(PO4)6",
+     "compound": "InSb3(PO4)6",
+     "quantity": "space_group_number",
+     "expected": "Pc (7)"
+    },
+    {
+     "id": "K2:InSb3Pb4O13",
+     "compound": "InSb3Pb4O13",
+     "quantity": "space_group_number",
+     "expected": "R3m (160)"
+    },
+    {
+     "id": "K2:K2TiCr(PO4)3",
+     "compound": "K2TiCr(PO4)3",
+     "quantity": "space_group_number",
+     "expected": "P213 (198)"
+    },
+    {
+     "id": "K2:K4MgFe3(PO4)5",
+     "compound": "K4MgFe3(PO4)5",
+     "quantity": "space_group_number",
+     "expected": "Cc (9)"
+    },
+    {
+     "id": "K2:K4TiSn3(PO5)4",
+     "compound": "K4TiSn3(PO5)4",
+     "quantity": "space_group_number",
+     "expected": "P21 (4)"
+    },
+    {
+     "id": "K2:KBaGdWO6",
+     "compound": "KBaGdWO6",
+     "quantity": "space_group_number",
+     "expected": "F-43m (216)"
+    },
+    {
+     "id": "K2:KBaPrWO6",
+     "compound": "KBaPrWO6",
+     "quantity": "space_group_number",
+     "expected": "F-43m (216)"
+    },
+    {
+     "id": "K2:KMn3O6",
+     "compound": "KMn3O6",
+     "quantity": "space_group_number",
+     "expected": "C2/m (12)"
+    },
+    {
+     "id": "K2:KNa2Ga3(SiO4)3",
+     "compound": "KNa2Ga3(SiO4)3",
+     "quantity": "space_group_number",
+     "expected": "P21/c (14)"
+    },
+    {
+     "id": "K2:KNaP6(PbO3)8",
+     "compound": "KNaP6(PbO3)8",
+     "quantity": "space_group_number",
+     "expected": "P63/m (176)"
+    },
+    {
+     "id": "K2:KNaTi2(PO5)2",
+     "compound": "KNaTi2(PO5)2",
+     "quantity": "space_group_number",
+     "expected": "Pna21 (33)"
+    },
+    {
+     "id": "K2:KPr9(Si3O13)2",
+     "compound": "KPr9(Si3O13)2",
+     "quantity": "space_group_number",
+     "expected": "P3 (143)"
+    },
+    {
+     "id": "K2:Mg3MnNi3O8",
+     "compound": "Mg3MnNi3O8",
+     "quantity": "space_group_number",
+     "expected": "R-3m (166)"
+    },
+    {
+     "id": "K2:MgCuP2O7",
+     "compound": "MgCuP2O7",
+     "quantity": "space_group_number",
+     "expected": "P-1 (2)"
+    },
+    {
+     "id": "K2:MgNi(PO3)4",
+     "compound": "MgNi(PO3)4",
+     "quantity": "space_group_number",
+     "expected": "C2/c (15)"
+    },
+    {
+     "id": "K2:MgTi2NiO6",
+     "compound": "MgTi2NiO6",
+     "quantity": "space_group_number",
+     "expected": "R3 (146)"
+    },
+    {
+     "id": "K2:MgV4Cu3O14",
+     "compound": "MgV4Cu3O14",
+     "quantity": "space_group_number",
+     "expected": "P1 (1)"
+    },
+    {
+     "id": "K2:Mn2VPO7",
+     "compound": "Mn2VPO7",
+     "quantity": "space_group_number",
+     "expected": "Cm (8)"
+    },
+    {
+     "id": "K2:Mn4Zn3(NiO6)2",
+     "compound": "Mn4Zn3(NiO6)2",
+     "quantity": "space_group_number",
+     "expected": "C2/c (15)"
+    },
+    {
+     "id": "K2:Mn7(P2O7)4",
+     "compound": "Mn7(P2O7)4",
+     "quantity": "space_group_number",
+     "expected": "C2221 (20)"
+    },
+    {
+     "id": "K2:MnAgO2",
+     "compound": "MnAgO2",
+     "quantity": "space_group_number",
+     "expected": "C2/m (12)"
+    },
+    {
+     "id": "K2:Na3Ca18Fe(PO4)14",
+     "compound": "Na3Ca18Fe(PO4)14",
+     "quantity": "space_group_number",
+     "expected": "P1 (1)"
+    },
+    {
+     "id": "K2:Na7Mg7Fe5(PO4)12",
+     "compound": "Na7Mg7Fe5(PO4)12",
+     "quantity": "space_group_number",
+     "expected": "P1 (1)"
+    },
+    {
+     "id": "K2:NaCaMgFe(SiO3)4",
+     "compound": "NaCaMgFe(SiO3)4",
+     "quantity": "space_group_number",
+     "expected": "C2 (5)"
+    },
+    {
+     "id": "K2:NaMnFe(PO4)2",
+     "compound": "NaMnFe(PO4)2",
+     "quantity": "space_group_number",
+     "expected": "P-1 (2)"
+    },
+    {
+     "id": "K2:Sn2Sb2Pb4O13",
+     "compound": "Sn2Sb2Pb4O13",
+     "quantity": "space_group_number",
+     "expected": "Imm2 (44)"
+    },
+    {
+     "id": "K2:Zr2Sb2Pb4O13",
+     "compound": "Zr2Sb2Pb4O13",
+     "quantity": "space_group_number",
+     "expected": "Imm2 (44)"
+    },
+    {
+     "id": "K2:Zn3Ni4(SbO6)2",
+     "compound": "Zn3Ni4(SbO6)2",
+     "quantity": "space_group_number",
+     "expected": "C2/c (15)"
+    }
+   ]
+  },
+  "K3": {
+   "finding": "the product was already known",
+   "source": "the critique, Table I, E4 flag",
+   "shape": "flag",
+   "is_ceiling_target": true,
+   "count": 2,
+   "targets": [
+    {
+     "id": "K3:MgTi4(PO4)6",
+     "compound": "MgTi4(PO4)6",
+     "quantity": "e4_flag",
+     "expected": "already present in the reference database"
+    },
+    {
+     "id": "K3:MnAgO2",
+     "compound": "MnAgO2",
+     "quantity": "e4_flag",
+     "expected": "already present in the reference database"
+    }
+   ]
+  },
+  "K4": {
+   "finding": "the cubic lattice parameter derived from each A-Lab CIF",
+   "source": "the critique, Table II",
+   "shape": "value",
+   "is_ceiling_target": true,
+   "count": 5,
+   "targets": [
+    {
+     "id": "K4:Sn2Sb2Pb4O13",
+     "compound": "Sn2Sb2Pb4O13",
+     "quantity": "cubic_lattice_parameter_a",
+     "expected": "10.6168 A"
+    },
+    {
+     "id": "K4:Zr2Sb2Pb4O13",
+     "compound": "Zr2Sb2Pb4O13",
+     "quantity": "cubic_lattice_parameter_a",
+     "expected": "10.6594 A"
+    },
+    {
+     "id": "K4:Hf2Sb2Pb4O13",
+     "compound": "Hf2Sb2Pb4O13",
+     "quantity": "cubic_lattice_parameter_a",
+     "expected": "10.6415 A"
+    },
+    {
+     "id": "K4:FeSb3Pb4O13",
+     "compound": "FeSb3Pb4O13",
+     "quantity": "cubic_lattice_parameter_a",
+     "expected": "10.4931 A"
+    },
+    {
+     "id": "K4:InSb3Pb4O13",
+     "compound": "InSb3Pb4O13",
+     "quantity": "cubic_lattice_parameter_a",
+     "expected": "10.5845 A"
+    }
+   ]
+  },
+  "K5": {
+   "finding": "per-compound structural statements in the critique's prose",
+   "source": "the critique, section IV prose",
+   "shape": "value",
+   "is_ceiling_target": true,
+   "count": 3,
+   "targets": [
+    {
+     "id": "K5:P2",
+     "compound": "Ba2ZrSnO6",
+     "quantity": "mixed_cation_sites",
+     "expected": "1"
+    },
+    {
+     "id": "K5:P3",
+     "compound": "Zn3Ni4(SbO6)2",
+     "quantity": "mixed_cation_sites",
+     "expected": "24"
+    },
+    {
+     "id": "K5:P4",
+     "compound": "Mn4Zn3(NiO6)2",
+     "quantity": "mixed_cation_sites",
+     "expected": "0"
+    }
+   ]
+  },
+  "K6": {
+   "finding": "the external baseline's pass/flag decision per claim",
+   "source": "CARTOGRAPH, Appendix I",
+   "shape": "flag",
+   "is_ceiling_target": true,
+   "count": 40,
+   "targets": [
+    {
+     "id": "K6:MgNi(PO3)4",
+     "compound": "MgNi(PO3)4",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:Mn4Zn3(NiO6)2",
+     "compound": "Mn4Zn3(NiO6)2",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:MgCuP2O7",
+     "compound": "MgCuP2O7",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:Mn2VPO7",
+     "compound": "Mn2VPO7",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:MgTi4(PO4)6",
+     "compound": "MgTi4(PO4)6",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:CaFe2P2O9",
+     "compound": "CaFe2P2O9",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:Zr2Sb2Pb4O13",
+     "compound": "Zr2Sb2Pb4O13",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:FeSb3Pb4O13",
+     "compound": "FeSb3Pb4O13",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:Ba6Na2V2Sb2O17",
+     "compound": "Ba6Na2V2Sb2O17",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:MgV4Cu3O14",
+     "compound": "MgV4Cu3O14",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:CaCo(PO3)4",
+     "compound": "CaCo(PO3)4",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:K4TiSn3(PO5)4",
+     "compound": "K4TiSn3(PO5)4",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:KPr9(Si3O13)2",
+     "compound": "KPr9(Si3O13)2",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:KNaP6(PbO3)8",
+     "compound": "KNaP6(PbO3)8",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:MnAgO2",
+     "compound": "MnAgO2",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:K2TiCr(PO4)3",
+     "compound": "K2TiCr(PO4)3",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:MgTi2NiO6",
+     "compound": "MgTi2NiO6",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:K4MgFe3(PO4)5",
+     "compound": "K4MgFe3(PO4)5",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:InSb3(PO4)6",
+     "compound": "InSb3(PO4)6",
+     "quantity": "baseline_flag",
+     "expected": "flagged"
+    },
+    {
+     "id": "K6:Na3Ca18Fe(PO4)14",
+     "compound": "Na3Ca18Fe(PO4)14",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:Zn3Ni4(SbO6)2",
+     "compound": "Zn3Ni4(SbO6)2",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:NaMnFe(PO4)2",
+     "compound": "NaMnFe(PO4)2",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:KNaTi2(PO5)2",
+     "compound": "KNaTi2(PO5)2",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:Ba9Ca3La4(Fe4O15)2",
+     "compound": "Ba9Ca3La4(Fe4O15)2",
+     "quantity": "baseline_flag",
+     "expected": "flagged"
+    },
+    {
+     "id": "K6:Sn2Sb2Pb4O13",
+     "compound": "Sn2Sb2Pb4O13",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:Hf2Sb2Pb4O13",
+     "compound": "Hf2Sb2Pb4O13",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:InSb3Pb4O13",
+     "compound": "InSb3Pb4O13",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:NaCaMgFe(SiO3)4",
+     "compound": "NaCaMgFe(SiO3)4",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:Ba6Ta2Na2V2O17",
+     "compound": "Ba6Ta2Na2V2O17",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:KNa2Ga3(SiO4)3",
+     "compound": "KNa2Ga3(SiO4)3",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:Ba2ZrSnO6",
+     "compound": "Ba2ZrSnO6",
+     "quantity": "baseline_flag",
+     "expected": "flagged"
+    },
+    {
+     "id": "K6:CaMn(PO3)4",
+     "compound": "CaMn(PO3)4",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:Na7Mg7Fe5(PO4)12",
+     "compound": "Na7Mg7Fe5(PO4)12",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:KMn3O6",
+     "compound": "KMn3O6",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:CaNi(PO3)4",
+     "compound": "CaNi(PO3)4",
+     "quantity": "baseline_flag",
+     "expected": "passed"
+    },
+    {
+     "id": "K6:KBaPrWO6",
+     "compound": "KBaPrWO6",
+     "quantity": "baseline_flag",
+     "expected": "flagged"
+    },
+    {
+     "id": "K6:CaGd2Zr(GaO3)4",
+     "compound": "CaGd2Zr(GaO3)4",
+     "quantity": "baseline_flag",
+     "expected": "flagged"
+    },
+    {
+     "id": "K6:KBaGdWO6",
+     "compound": "KBaGdWO6",
+     "quantity": "baseline_flag",
+     "expected": "flagged"
+    },
+    {
+     "id": "K6:Mn7(P2O7)4",
+     "compound": "Mn7(P2O7)4",
+     "quantity": "baseline_flag",
+     "expected": "flagged"
+    },
+    {
+     "id": "K6:Mg3MnNi3O8",
+     "compound": "Mg3MnNi3O8",
+     "quantity": "baseline_flag",
+     "expected": "flagged"
+    }
+   ]
+  }
+ }
+}

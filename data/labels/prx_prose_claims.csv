@@ -1,0 +1,102 @@
+# A4: per-compound structural statements in the critique's PROSE that are
+# derivable from the deposited files and are NOT already carried by Tables I,
+# II or III. Transcribed 27 August 2026 from data/labels/prx_claim_survey.json,
+# which is the four-reader enumeration of the critique's 272 specific claims.
+#
+# WHY THIS FILE IS SHORT, AND A CORRECTION TO THE CEILING.
+# The superseded ceiling document and its tiered key said "~30 claims derivable from
+# the deposit, ~18 already transcribed, 7 not". The survey does hold 30
+# from-deposit-alone claims. But on inspecting the 16 whose transcription
+# status was "not held" or "unknown":
+#
+#   - EVERY prose space-group claim duplicates Table III. The prose restates
+#     in words what Table III already gives numerically - Mg3NiO4 "the CIF has
+#     disordered cations" against Table III's indexed Fm-3m versus proposed
+#     Pm-3m; KMn3O6 predicted C2/c against deposited C2/m; KNaP6(PbO3)8
+#     predicted P3 against deposited P63/m; Ba2ZrSnO6, MgTi2NiO6,
+#     Mn4Zn3(NiO6)2 and Zn3Ni4(SbO6)2 likewise. Transcribing them as separate
+#     targets would COUNT THE SAME EXPERT FINDING TWICE and inflate the
+#     denominator with duplicates.
+#   - Several more are bookkeeping rather than per-compound findings: "18 new
+#     phosphate phases", "six perovskite- or ilmenite-derived structures",
+#     "43 materials grouped by structure type". These are counts and
+#     groupings. They are checkable in principle but they are not structural
+#     assertions about a deposited file, and the layer has no verdict shaped
+#     like them.
+#
+# What survives is what is transcribed below: quantities the prose asserts,
+# that the deposit carries, and that no table already holds. A4 is therefore a
+# SMALL target group, not a large one, and the earlier count of 7 untranscribed
+# targets overstated it. Recorded here rather than corrected silently.
+#
+# TRANSCRIPTION STATUS: TWO METHOD, 29 August 2026. A second, independent pass
+# ran over data/prx_energy_leeman2024.pdf by two routes that did not see this
+# file until their own lists were fixed: whole-document text extraction, and
+# section-by-section reading of Sec. IV. P1, P2 and P4 are confirmed on value
+# and locus. P3's value was disputed and the dispute is in the correction
+# log below; the pass also found this file short by one row.
+#
+# CORRECTION LOG
+#   29 Aug 2026  FLAGGED, NOT CHANGED. P3 stands at 24, and has throughout.
+#     What moved was the DEFINITION, not the number. `SCORED_QUANTITIES` reads
+#     "how many crystallographic sites in the deposited file carry more than
+#     one cation species", and the word "site" in it tightened to mean a
+#     crystallographic orbit. `Ctx.site_species()`, which is what actually
+#     implements the quantity, enumerates the structure's ROWS - 84 of them for
+#     this P1-expanded supercell, over 12 orbits of which 4 are mixed. So a
+#     reading of the tightened wording yields 4 where the instrument yields 24.
+#     That gap was raised as a correction. It was not adopted: no scored
+#     artifact ever carried 4 - `data/labels/ceiling.json` has read 24
+#     throughout - and nothing in the scored vocabulary can produce 4, so
+#     adopting it would have moved four arms from RECOVERED to MISSED on a
+#     definitional reading against a target no check could reach.
+#
+#     The prose supports neither number on its own: the critique states no
+#     count at all, only that "the Ni and Sb ions are disordered". Both 24 and
+#     4 are our compilation of a qualitative assertion, and 24 is the one the
+#     enumeration this benchmark actually performs returns. The proposal is
+#     kept below rather than deleted, because the orbit reading is a real
+#     reading and an orbit-aware primitive is the generation increment that
+#     would make it scoreable. Until that primitive exists it is not a target.
+#
+#   ~~PROPOSED and not adopted: P3 value 24 -> 4.~~ SCORED_QUANTITIES defines
+#     mixed_cation_sites as "how many CRYSTALLOGRAPHIC SITES in the deposited
+#     file carry more than one cation species". The deposited Zn3Ni4(SbO6)2 is
+#     a P1-expanded supercell: 84 atom rows over 12 crystallographic orbits, of
+#     which 4 are mixed and each appears six times as separate rows. 24 counts
+#     rows; 4 counts sites. The definition asks for sites, so the value is 4.
+#     Had it been adopted it would have changed a score: all four generation-2
+#     arms reported 24, so the target would have moved from RECOVERED to
+#     MISSED for every arm. It was not adopted. ctx.site_species() enumerates
+#     ROWS, so no check could have reached 4 with the generation-2 vocabulary -
+#     an orbit-aware primitive is the generation-3 item that would make the
+#     orbit reading reachable.
+#
+# WHAT THE CRITICS ACTUALLY STATE, per row, from the second pass:
+#   P1  a published number: "a slightly larger lattice parameter of 4.20311 A".
+#   P2  "disordered Zr and Sn ions on THE B SITE" - one site, named, singular.
+#   P4  "the A site ... exclusively occupied by Zn and the B site ... with
+#       ORDERED Ni and Mn" - ordered, hence zero mixed sites.
+#   P3  "the Ni and Sb ions are disordered (having fractional occupancies in
+#       the CIF)". NO COUNT IS STATED. The number is our compilation of a
+#       qualitative assertion, and it is marked so in the shape column below.
+#
+# KNOWN SHORT BY ONE ROW. The second pass found NaCaMgFe(SiO3)4, Sec. IV G,
+# printed page 011002-19: "the CIF provided in the Supplemental Information of
+# the A-lab paper has all four metals completely disordered". The deposit
+# carries it (C2, 12 orbits, 4 mixed) and no table holds it. It is NOT added
+# here: adding a target is a ceiling change and belongs to a generation
+# increment, not to a correction log.
+#
+# COLUMNS
+#   claim_id   stable id, used as the target id in the scorebook
+#   compound   as named in the deposit
+#   quantity   a name from primitives.SCORED_QUANTITIES
+#   value      the expert-asserted value
+#   locus      where the critique states it
+#   verified   whether the deposited file reproduces the value, and how
+claim_id,compound,quantity,value,locus,verified
+P1,Mg3NiO4,cubic_lattice_parameter_a,4.20311,"Sec. IV A, p. 011002-6, ""the CIF of Mg3NiO4 provided in the A-lab paper indicates a slightly larger lattice parameter of 4.20311 A""",yes: deposited cell gives a=b=c=4.20311 A exactly
+P2,Ba2ZrSnO6,mixed_cation_sites,1,"Sec. IV E, p. 011002-13, the refinement model ""contains disordered Zr and Sn ions on the B site of the perovskite""",yes: 1 site of 5 carries Zr 0.5 / Sn 0.5
+P3,Zn3Ni4(SbO6)2,mixed_cation_sites,24,"Sec. IV D, p. 011002-11, the deposited file has ""Ni and Sb disordered"" on the B site where the Materials Project entry has them ordered",yes: 24 sites of 84 carry Ni 0.667 / Sb 0.333
+P4,Mn4Zn3(NiO6)2,mixed_cation_sites,0,"Sec. IV D, p. 011002-11, the A-lab prediction has ""the A site (tetrahedral) exclusively occupied by Zn and the B site (octahedral) with ordered Ni and Mn""",yes: 0 sites of 84 carry more than one cation species
